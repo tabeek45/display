@@ -1,0 +1,172 @@
+*{margin: 0;
+padding: 0;
+font-family: Baloo Paaji;
+} 
+
+a{cursor: url('../images/cursor.png'), auto;
+	
+}
+
+.header{
+	width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+	padding: 6px;
+}
+.header .logo {
+	width: 50%;
+	float: left;
+
+}
+.header .logo span{    
+	text-transform: uppercase;
+    font-size: 30px;
+    color: gray;
+    position: absolute;
+    margin-left: 9px;
+
+}
+
+
+
+.header .socialheader ul{
+	float: right;
+	list-style: none;
+	display: inline-block;
+}
+.header .socialheader ul li{
+	display: inline-block;
+	padding: 5px
+
+
+}
+.header .socialheader ul li a{
+
+}
+
+
+.navigation{
+
+    width: 1000px;
+    margin: 0 auto;
+    padding: 22px;
+    border-top: 2px solid gray;
+
+}
+
+.navigation ul{
+
+
+
+}
+.navigation ul li{
+		list-style: none;
+		display: inline;
+		padding-right: 15px;
+
+
+}
+.navigation ul a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: gray;
+
+}
+
+.navigation ul a:hover{
+	color: green;
+	transition: 1s;
+}
+
+.bg-image img{
+	max-width: 100%;
+	width: 100%
+}
+.mobileimage{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-14%);
+}
+
+.portfolio-button{
+	margin-top: 40px;
+	text-align: center;
+    margin-bottom: 32px;
+}
+.portfolio-button a{
+	background-color: #2DCC70;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 9px;
+
+
+}
+.content-text{
+	position: relative;
+	top: 80px;
+	text-align: center;
+    padding-bottom: 34px;
+    width: 1000px;
+    margin: 0 auto;
+    color: gray;
+}
+.footertext{
+	margin-top: 40px;
+	background-color: #332F30;
+	color: white;
+	padding: 46px;
+	text-align: center;
+
+}
+.footertext .text{
+	float: left;
+	text-align: center;
+	width: 50%;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+.footertext .button a{
+	background-color: #2DCC70;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.footer{
+	margin: 0 auto;
+    padding: 28px;
+    background: #d6d5d5;
+}
+.leftfooter{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	text-transform: uppercase;
+	color: gray;
+	text-align: center;
+}
+
+.rightfooter{
+	float: right;
+	width: 50%;
+	text-align: center;
+}
+
+.rightfooter ul{
+	
+
+}
+.rightfooter ul li{
+	list-style: none;
+    display: inline;
+    padding: 3px;
+    text-transform: uppercase;
+	
+}
+.rightfooter ul li a{
+	text-decoration: none;
+	color: gray;
+}
